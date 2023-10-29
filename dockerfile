@@ -1,3 +1,3 @@
 from ubuntu
-copy ./usr/share/ubuntu-release-upgrader
+ADD ./var/www/html
 EXPOSE 80
