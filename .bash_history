@@ -97,3 +97,34 @@ sudo su - jenkins
 sudo systemctl stop jenkins
 sudo systemctl start jenkins
 sudo systemctl status jenkins
+sudo su - jenkins
+nano docker.html
+git init
+git pull https://github.com/Nidhi-mpl/Test.git
+git add .
+git status
+ls
+git push origin master
+git branch
+git remote add https://github.com/Nidhi-mpl/Test.git
+git push origin master
+git remote origin add https://github.com/Nidhi-mpl/Test.git
+git remote add origin https://github.com/Nidhi-mpl/Test.git
+git push origin master
+git add develop.html
+ls
+git banch checkout
+git banch
+sudo git branch
+ls
+git checkout master
+git commit -m "new"
+git remote add origin https://github.com/Nidhi-mpl/Test.git
+git push origin master
+sudo su - jenkins
+ls
+cd docker.html
+nano docker.html
+cd /usr/share/ubuntu/html/
+cd /usr/share/ubuntu/html
+cd . /usr/share/ubuntu/html
