@@ -1,6 +1,6 @@
 FROM ubuntu
-RUN  apt update -y && apt install git apache2 -y
-RUN cd /var/www/html
+RUN  apt update -y 
+RUN apt install apache2 -y
 EXPOSE 80
-ENTRYPOINT apache2ctl FOREGROUND
+ENTRYPOINT apachectl -D FOREGROUND
 
